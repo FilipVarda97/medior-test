@@ -1,5 +1,19 @@
 {
-	"name": "Mark",
-	"surname": "Johnson",
-	"age": 23
+	"user": [{
+		"id": 1,
+		"name": "Mark",
+		"surname": "Johanson",
+		"dateCreated": "2021-01-15 19:27:15"
+	}],
+	"appUsage": [{
+			"id": 1,
+			"daysOpened": 10,
+			"timePerDay": ["2h", "2h 30m", "1h", "3h 30m", "30m", "1h", "4h", "2h 30m", "1h 30m", "3h"]
+		},
+		{
+			"id": 1,
+			"daysOpened": 8,
+			"timePerDay": ["2h", "1h 30m", "1h", "30m", "1h", "2h", "2h 30m", "1h 30m"]
+		}
+	]
 }
